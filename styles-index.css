@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    background-color:rgb(255, 255, 255);
+    margin: 0;
+}
+
+header {
+    background-color:rgb(55, 122, 177);
+}
+
+header h3 {
+    color: gold;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px goldenrod;  
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+header, ul, li {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+}
+
+header ul li {
+    font-weight: bold;
+    padding: 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 10px;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+p {
+    text-align: justify;
+}
+
+main p a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color:rgb(55, 122, 177);
+}
+
+footer h4 {
+    color:gold;
+    margin-top: 16px;
+}
+
+footer ul {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+footer, h4, ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footer ul li {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.menu-midias {
+    margin-left: 70px;
+    display: flex;
+}
